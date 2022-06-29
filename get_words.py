@@ -7,7 +7,7 @@ and retun them as a list of strings.
 
 def get_words():
     # Load the file.
-    with open('sgb-words.txt','r') as f:
+    with open('five-letter-words/sgb-words.txt','r') as f:
         ## This includes \n at the end of each line:
         #words = f.readlines()
     
